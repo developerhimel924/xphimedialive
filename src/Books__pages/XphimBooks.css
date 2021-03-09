@@ -1,0 +1,125 @@
+.active__navLink {
+  color: #ff8000 !important;
+}
+
+.books__header {
+  justify-content: center;
+  text-align: center;
+}
+
+.books__header > h1 {
+  font-weight: 500;
+  font-size: 40px;
+  color: #f0601e;
+  padding: 40px 0px;
+}
+
+.books__category {
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 50px 0px;
+  max-width: 1600px;
+  margin: auto;
+}
+
+.category__wrapper {
+  border-bottom: 1px solid #7c7c7c73;
+}
+
+.books__category > h2 {
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: #f0601e;
+  text-decoration-style: dotted;
+  margin-bottom: 10px;
+}
+
+.category__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0px 100px;
+}
+.items {
+  cursor: pointer;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  margin: 5px;
+  transition: all 0.2s linear !important;
+  transform: scale(1);
+  box-shadow: -15px -15px 15px rgb(255 255 255 / 25%),
+    15px 15px 15px rgb(0 0 0 / 10%);
+  border-radius: 5px;
+}
+
+.items:hover {
+  box-shadow: -15px -15px 15px rgba(0, 0, 0, 0.1),
+    15px 15px 15px rgba(255, 255, 255, 0.2),
+    inset -5px -5px 5px rgba(0, 0, 0, 0.1),
+    inset 5px 5px 5px rgba(255, 255, 255, 0.2);
+  transform: scale(1.1);
+}
+.music__books__lists{
+  justify-content: flex-start !important;
+}
+
+.books__lists__container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin: auto;
+}
+.books__lists {
+  padding: 30px 50px;
+}
+
+.book__bannerImg {
+  max-width: 100%;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out !important;
+}
+
+.book__bannerImg:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 0px 10px #f0601e;
+}
+
+.books__lists > h2 {
+  font-weight: 500;
+  color: #f0601e;
+  padding: 30px 0px;
+  border-bottom: 1px solid #7c7c7c73;
+}
+
+.books__categories > h4 {
+  color: #000;
+  text-decoration: none;
+  border-bottom: none;
+  padding: 10px 0px;
+  transition: all 0.5s ease-in-out !important;
+}
+
+.books__categories > h4:hover {
+  color: #f0601e;
+}
+
+.books__section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 50px 0px;
+}
+.books__Links {
+  max-width: 300px;
+  width: 200px;
+  border-right: 1px solid #7c7c7c73;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+@media (max-width: 1268px) {
+  .books__category {
+    padding: 0px 50px 50px 50px;
+  }
+}

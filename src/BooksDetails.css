@@ -1,0 +1,135 @@
+.books__info__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 100px 0px;
+  padding: 0px 100px;
+}
+
+.books__details__info {
+  max-width: 800px;
+  margin: 0px 100px;
+}
+.books__img {
+  box-shadow: -15px -15px 15px rgb(255 255 255 / 25%),
+    15px 15px 15px rgb(0 0 0 / 10%);
+  padding: 20px;
+  transition: all 0.3s linear;
+}
+
+.books__img:hover {
+  box-shadow: -15px -15px 15px rgba(0, 0, 0, 0.1),
+    15px 15px 15px rgba(255, 255, 255, 0.2),
+    inset -5px -5px 5px rgba(0, 0, 0, 0.1),
+    inset 5px 5px 5px rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+.books__img1 {
+  box-shadow: -15px -15px 15px rgb(255 255 255 / 25%),
+    15px 15px 15px rgb(0 0 0 / 10%);
+  padding: 20px;
+  transition: all 0.3s linear;
+  width: 250px;
+  height: 350px;
+}
+
+.books__img1:hover {
+  box-shadow: -15px -15px 15px rgba(0, 0, 0, 0.1),
+    15px 15px 15px rgba(255, 255, 255, 0.2),
+    inset -5px -5px 5px rgba(0, 0, 0, 0.1),
+    inset 5px 5px 5px rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+.books__imginfo p {
+  margin: 10px 0px;
+}
+.authorP {
+  border-top: 1px solid #7c7c7c;
+  margin-top: 40px !important;
+  padding: 10px 0px;
+}
+.authorImg {
+  border-radius: 50%;
+}
+.book__name {
+  font-weight: 500;
+  color: #f0601e;
+}
+.author__name {
+  font-weight: 300;
+}
+.details__of__book {
+  margin-top: 30px;
+}
+.formatStyles {
+  margin: 20px 0px;
+}
+.booksInfo__btn {
+  margin: 15px 0px;
+}
+.booksInfo__btn button {
+  margin-right: 10px;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 8px;
+}
+.booksInfo__btn button p {
+  margin-bottom: 5px;
+}
+.booksInfo__btn button:hover {
+  background-color: #232f3e;
+  color: #fff;
+}
+.books__description {
+  text-align: justify;
+}
+.books__cart {
+  box-shadow: -15px -15px 15px rgb(255 255 255 / 25%),
+    15px 15px 15px rgb(0 0 0 / 10%);
+  padding: 20px;
+  transition: all 0.3s linear;
+  height: 500px;
+  border-radius: 5px;
+}
+.preoder__text {
+  color: #28a745;
+}
+.select__format__text {
+  margin: 20px 0px;
+}
+.price__list__book {
+  margin-bottom: 20px;
+}
+.price__list__book p span {
+  color: #f0601e;
+}
+.stock__text {
+  color: #28a745;
+  margin: 20px 0px;
+}
+.shoppingcart__btn {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f0601e;
+  color: #fff;
+  outline: none;
+}
+.shoppingcart__btn span {
+  font-size: 16px;
+  margin-left: 10px;
+}
+.shoppingcart__btn:hover {
+  background-color: #d14707;
+}
+.author__target {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
