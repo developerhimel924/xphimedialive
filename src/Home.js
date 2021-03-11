@@ -1,6 +1,5 @@
 import React from "react";
 import "./Home.css";
-import SliderBg from "./Assets/image1.jpg";
 import HiddenImg from "./Assets/hidden.jpg";
 import Indigenous from './Assets/indigenous.jpg';
 import RareBooks from './Assets/rare.jpg';
@@ -9,13 +8,14 @@ import Award from './Assets/award.jpg';
 import Sublime from './Assets/sublime.jpg';
 import Ancient from './Assets/ancient.jpg';
 import { Link } from "react-router-dom";
+import Slider from "./Slider";
 
 function Home() {
   return (
     <div className="home__container">
       <div className="home">
         <div className="home__container">
-          <img className="home__image" src={SliderBg} alt="" />
+          <Slider/>
 
           <div className="home__row">
             <div className="home__row__content">

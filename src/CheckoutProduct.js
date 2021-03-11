@@ -29,7 +29,7 @@ function CheckoutProduct({
       <div className="checkoutProduct__info">
         <p className="checkoutProduct__title">{title}</p>
         <p className="checkoutProduct__price">
-          <small>$</small>
+          <strong>$</strong>
           <strong>{price2}</strong>
         </p>
         {!hideButton && <button onClick={removeFromBasket}>Remove</button>}
