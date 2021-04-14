@@ -28,7 +28,7 @@ import R2r400dvd from "./R2r400dvd";
 import Cointelpro from "./Cointelpro";
 import XphimAnimations from "./Books__pages/XphimAnimations";
 import Spiritman from "./Spiritman";
-
+import Footer from "./Footer";
 
 const promise = loadStripe(
   "pk_test_51HpkTLCwdM9b4zXfHlla5MjMhuMdGKRcE6xlTcIxQ1kcxr2Zsf4s1r7CYjhXnMsBvUre5OUzzRn2TIqp1339RFFP00sJhsLsdU"
@@ -66,70 +66,87 @@ const App = () => {
           <Route path="/XphimBooks">
             <Header />
             <XphimBooks />
+            <Footer />
           </Route>
           <Route path="/JesusBook">
             <Header />
             <JesusBook />
+            <Footer />
           </Route>
           <Route path="/Adamtree">
             <Header />
             <Adamtree />
+            <Footer />
           </Route>
           <Route path="/AdamBook">
             <Header />
             <AdamBook />
+            <Footer />
           </Route>
           <Route path="/Awaken">
             <Header />
             <Awaken />
+            <Footer />
           </Route>
           <Route path="/ThewhitelieBook">
             <Header />
             <ThewhitelieBook />
+            <Footer />
           </Route>
           <Route path="/MusicBooks">
             <Header />
             <MusicBooks />
+            <Footer />
           </Route>
           <Route path="/Coc">
             <Header />
             <Coc />
+            <Footer />
           </Route>
           <Route path="/R2rcd">
             <Header />
             <R2rcd />
+            <Footer />
           </Route>
           <Route path="/R2r400cd">
             <Header />
             <R2r400cd />
+            <Footer />
           </Route>
           <Route path="/Awakenpsalms">
             <Header />
             <Awakenpsalms />
+            <Footer />
           </Route>
           <Route path="/XphimMovies">
             <Header />
             <XphimMovies />
+            <Footer />
           </Route>
           <Route path="/R2rdvd">
             <Header />
             <R2rdvd />
+            <Footer />
           </Route>
           <Route path="/R2r400dvd">
             <Header />
             <R2r400dvd />
+            <Footer />
           </Route>
           <Route path="/Cointelpro">
             <Header />
             <Cointelpro />
+            <Footer />
           </Route>
           <Route path="/XphimAnimations">
             <Header />
             <XphimAnimations />
+            <Footer />
           </Route>
           <Route path="/Spiritman">
             <Header />
             <Spiritman />
+            <Footer />
           </Route>
           <Route path="/orders">
             <Header />
@@ -141,16 +158,19 @@ const App = () => {
           <Route path="/checkout">
             <Header />
             <Checkout />
+            <Footer />
           </Route>
           <Route path="/payment">
             <Header />
             <Elements stripe={promise}>
               <Payment />
             </Elements>
+            <Footer />
           </Route>
           <Route path="/">
             <Header />
             <Home />
+            <Footer />
           </Route>
         </Switch>
       </div>
